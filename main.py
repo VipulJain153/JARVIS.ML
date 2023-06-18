@@ -3,7 +3,7 @@ pygame.init()
 SCREEN = pygame.display.set_mode((1280,720))
 pygame.display.set_caption('JARVIS')
 pygame.display.set_icon(pygame.image.load('icon.png'))
-openai.api_key = "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"
+openai.api_key = ""
 with open('memory.txt', 'r+') as f:
     chatStr = f.read()
 bgmusic=1
